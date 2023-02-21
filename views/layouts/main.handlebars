@@ -1,0 +1,56 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <!-- link css files here -->
+    <link rel="stylesheet" href="/stylesheets/bootstrap.css" />
+    <link rel="stylesheet" href="/stylesheets/main.css" />
+  </head>
+  <body>
+    <!-- navigation -->
+    <nav class="navbar navbar-light bg-light">
+      <div class="container">
+        <div class="back-home">
+          <a
+            class="btn btn-sm btn btn-secondary back-home-button"
+            role="button"
+            href="/"
+            data-id="home"
+          >回到首頁</a>
+        </div>
+        <div class="nav-buttons">
+          <a
+            class="btn btn-sm btn btn-secondary about"
+            role="button"
+            href="/about"
+            data-id="about"
+            aria-pressed="true"
+          >About</a>
+          <a
+            class="btn btn-sm btn btn-secondary portfolio"
+            role="button"
+            href="/portfolio"
+            data-id="portfolio"
+          >Portfolio</a>
+          <a
+            class="btn btn-sm btn btn-secondary contact"
+            role="button"
+            href="/contact"
+            data-id="contact"
+          >Contact</a>
+        </div>
+      </div>
+    </nav>
+
+    <!-- partial templates will replace the part of "body" here -->
+    {{{body}}}
+
+    <!-- include javascripts files here -->
+    <script src="/javascripts/popper.js"></script>
+    <script src="/javascripts/bootstrap.js"></script>
+    <script src="/javascripts/main.js"></script>
+  </body>
+</html>
