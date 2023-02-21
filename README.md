@@ -1,4 +1,4 @@
-# simple-web
+# Simple-web
 
 ## Installation and execution
 1. open your terminal and clone this project
